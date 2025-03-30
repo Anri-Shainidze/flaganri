@@ -4,9 +4,9 @@ import { useState } from "react";
 import Index from "./components/objects/Index";
 import FlagInfo from "./components/flag-info/FlagInfo";
 import Header from "./components/Header/Header";
-import ice from "../src/assets/iceland.png";
-import ger from "../src/assets/germany.png";
-import bra from "../src/assets/brazil.png";
+import bra from "../src/assests/brazil.png";
+import ger from "../src/assests/germany.png";
+import ice from "../src/assests/iceland.png";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 
 const darkTheme = {
