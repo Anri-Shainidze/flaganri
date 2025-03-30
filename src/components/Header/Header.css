@@ -21,6 +21,7 @@ nav {
 }
 .button span {
   font-family: Nunito Sans;
+  cursor: pointer;
   font-weight: 600;
   font-size: 12px;
   line-height: 100%;

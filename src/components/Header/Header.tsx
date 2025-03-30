@@ -41,6 +41,16 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${(props) => props.theme.background};
     color: ${(props) => props.theme.text};
     /* Apply the theme colors to inputs and buttons */
+    border: 2px solid ${(props) => props.theme.text};
+    /* Use the theme text color for borders */
+    padding: 10px;
+    border-radius: 6px;
+    
+  }
+  input, button, select, textarea {
+    background-color: ${(props) => props.theme.background};
+    color: ${(props) => props.theme.text};
+    /* Apply the theme colors to inputs and buttons */
     border: 1px solid ${(props) => props.theme.text};
     /* Use the theme text color for borders */
     padding: 10px;
