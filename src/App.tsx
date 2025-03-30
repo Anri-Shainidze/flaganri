@@ -78,7 +78,7 @@ function App() {
                 <Index
                   props={{
                     name: "Iceland",
-                    population: "81,770,900",
+                    population: "91,770,900",
                     region: "Europe",
                     subRegion: "Western Europe",
                     capital: "Berlin",
@@ -91,7 +91,7 @@ function App() {
                   <Index
                     props={{
                       name: "Germany",
-                      population: "81,770,900",
+                      population: "91,770,900",
                       region: "Europe",
                       subRegion: "Western Europe",
                       capital: "Berlin",
