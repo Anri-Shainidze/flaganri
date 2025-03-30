@@ -14,12 +14,14 @@ const darkTheme = {
   // These are the colors use in the dark mode
 
   background: "#2b3844",
+  // Background color for dark mode
   text: "#ffffff",
 };
 
 const lightTheme = {
 
   background: "#ffffff",
+  // Define light theme colors
   text: "#2b3844",
 };
 
@@ -29,7 +31,9 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${(props) => props.theme.background};
     color: ${(props) => props.theme.text};
     /* Apply the theme colors to the body */
+    font-family: 'Arial', sans-serif;
     transition: all 0.3s ease;
+    /* Smooth transition for theme changes */
   }
 
   /* Adjust styles for inputs or other global elements */
@@ -76,6 +80,7 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme }) => {
             <FaMoon
               style={{
                 color: isDarkMode ? "#ffffff" : "#2b3844",cursor:"pointer"
+                // Change the icon color based on the theme
               }}
             />
             <span>dark Mode</span>
