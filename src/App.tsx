@@ -30,9 +30,9 @@ const GlobalStyle = createGlobalStyle`
 input, button, select, textarea, .flag ,.france,header,h1,{
   background-color: ${(props) => props.theme.background};
   color: ${(props) => props.theme.text};
-  border: 1px solid ${(props) => props.theme.text};
+  border: 2px solid ${(props) => props.theme.text};
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 6px;
   }
   body {
     background-color: ${(props) => props.theme.background};
