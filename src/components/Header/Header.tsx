@@ -64,8 +64,8 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme }) => {
   return (
     <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
       {/* ThemeProvider wraps the entire app to provide theme context */}
-      {/* The theme is determined by the current state of isDarkMode 
-      <GlobalStyle />\
+      {/* The theme is determined by the current state of isDarkMode */}
+      <GlobalStyle />
       {/* Global styles are applied here based on the current theme */}
       <header>
         <nav>
